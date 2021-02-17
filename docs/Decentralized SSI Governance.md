@@ -8,15 +8,15 @@ Rieks Joosten (TNO), Sterre den Breeijen (TNO), Drummond Reed (Evernym)
 
 ## Summary
 
-This whitepaper explores a set of related ideas that we collectively refer to as “decentralized SSI governance”. The purpose of such %%governance%% is to support organizations as they transform their IT, their business-process artifacts, such as forms, and their policies to reap the benefits of SSI. This paper introduces %%SSI Assurance Communities|ssi-ac%% (%%SSI-ACs|ssi-ac%%) and identifies three specific governance topics: credential-types, accreditation and decision tree support. Tools and services are suggested that help with these topics. Furthermore, a distinction is made between what the business primarily cares about (business and business applications), and the technology and other things that are just expected to work (which we call "%%SSI-infrastructure%%").
+This whitepaper explores a set of related ideas that we collectively refer to as “decentralized SSI governance”. The purpose of such %%governance|governance%% is to support organizations as they transform their IT, their business-process artifacts, such as forms, and their policies to reap the benefits of SSI. This paper introduces %%SSI Assurance Communities|ssi-ac%% (%%SSI-ACs|ssi-ac%%) and identifies three specific governance topics: credential-types, accreditation and decision tree support. Tools and services are suggested that help with these topics. Furthermore, a distinction is made between what the business primarily cares about (business and business applications), and the technology and other things that are just expected to work (which we call "%%SSI-infrastructure|ssi-infrastructure%%").
 
 Here are the main takeaways:
 - Self-sovereign identity could save time and money on bureaucratic processes (form filling and validation) by automating business decisions.
-- Business decisions require %%governance%% to ensure the data used for making them qualifies (is valid) for that purpose, and continuously remains compliant with laws, regulations, and company policies (which regularly change).
+- Business decisions require %%governance|governance%% to ensure the data used for making them qualifies (is valid) for that purpose, and continuously remains compliant with laws, regulations, and company policies (which regularly change).
 - Companies could share this governance burden by supporting communities that support the provisioning of SSI-related assurances for their specific purposes.
 - Such (focused) %%assurance communities|ssi-ac%% could be supported by tools like %%credential catalogues|credential-catalogue%% and %%accreditation credentials|accreditation-credential%%.
 
-We hope this paper inspires SSI proponents to develop not only real %%SSI infrastructure%%, but also assurance mechanisms for exchanging %%qualified data%%.
+We hope this paper inspires SSI proponents to develop not only real %%SSI infrastructure|ssi-infrastructure%%, but also assurance mechanisms for exchanging %%qualified data|qualified-data%%.
 
 ## Why SSI - Saving time and money on bureaucracy 
 
