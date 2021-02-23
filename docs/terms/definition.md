@@ -11,7 +11,7 @@ glossaryText: "a text that helps %%parties^party%% to understand the meaning of 
 
 ### Short Description
 <!--REQUIRED--in 1-3 sentences that describe the concept to a layperson with reasonable accuracy.-->
-A **Definition** is a text that helps %%parties|party%% truly understand the meaning of a %%term|term%% as it is used in a communication. Because [terms are scoped](terminology), this 'truly understanding' of one another isn't trivial. Therefore, we insist that the explanatory text be a criterion that %%parties|party%% are expected to use in the same way in some %%scope(s)|scope%%, allowing them to establish whether or not they make the same determination as to whether or not something qualifies to be refered to by that term in a way that is independent of whether or not the (alledged) meaning is relevant for the purposes they pursue within that scope.
+A **Definition** is a text that helps parties truly understand the meaning of a %%term|term%% as it is used in a communication. Because [terms are scoped](terminology), this 'truly understanding' of one another isn't trivial. Therefore, we insist that the explanatory text be a criterion that parties are expected to use in the same way in some %%scope(s)|scope%%, allowing them to establish whether or not they make the same determination as to whether or not something qualifies to be refered to by that term in a way that is independent of whether or not the (alledged) meaning is relevant for the purposes they pursue within that scope.
 
 The %%terminology pattern|pattern-terminology%% provides an overview of how this concept fits in with related concepts.
 

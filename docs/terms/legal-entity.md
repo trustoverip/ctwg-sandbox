@@ -20,7 +20,7 @@ The %%Jurisdictions pattern|pattern-jurisdiction%% provides an overview of how t
 It is important to recognize that the term 'legal entity' does not refer to something that has an existence of its own, but that it is a property of en %%entity|entity%% that is linked to a %%jurisdiction|jurisdiction%%. This enables us to query for the applicable jurisdiction when someone uses the term, and get the right understanding of what (s)he means.
 
 ### Criteria
-A **Legal Entity** is an %%entity|entity%% that is known by and recognized to exist in a %%jurisdiction|jurisdiction%% (i.e. registered in the %%knowledge|knowledge%% of the %%party|party%% that operates the %%legal system|legal-system%% of said jurisdiction).
+A **Legal Entity** is an %%entity|entity%% that is known by and recognized to exist in a %%jurisdiction|jurisdiction%% (i.e. registered in the %%knowledge|knowledge%% of the party that operates the %%legal system|legal-system%% of said jurisdiction).
 
 ### Examples
 <!--Provide a few sentences in which you give examples that obviously qualify as instances of `<New Term>`, and that do NOT obviously qualify. Also, provide examples that are not (so) obvious, but help users to better understand its intension.-->

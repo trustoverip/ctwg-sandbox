@@ -16,7 +16,7 @@ glossaryText: "the rights and duties, as defined and enforced in that %%jurisdic
 We may use the phrase %%natural ownership|ownership%% to refer to an ownership relation that exists in the %%jurisdiction|jurisdiction%% 'Nature' (see the notes of %%jurisdiction|jurisdiction%%). This enables us to talk about things as 'the (natural) ownership of an %%assertion|assertion%%'.
 
 ### Purpose
-**Ownership** is a means by which %%jurisdictions|jurisdiction%% provide assurances to %%parties|party%% (within its scope) that they can enjoy, dispose of and control in pretty much any way they like. The %%legal system|legal-system%% of the %%jurisdiction|jurisdiction%% specifies these rights, and provides ways in which the %%owner|owner%% can exercize them (that provides the assurance).
+**Ownership** is a means by which %%jurisdictions|jurisdiction%% provide assurances to parties (within its scope) that they can enjoy, dispose of and control in pretty much any way they like. The %%legal system|legal-system%% of the %%jurisdiction|jurisdiction%% specifies these rights, and provides ways in which the %%owner|owner%% can exercize them (that provides the assurance).
 
 ### Criteria
 An **ownership** is a relationship between two %%legal entities|legal-entity%% (called the %%owner|owner%% and the %%owned|owned%%) within a single %%jurisdiction|jurisdiction%%, whose %%legal system|legal-system%% defines and enforces (a) rules that recognize the power of the %%owner|owner%% to enjoy, dispose of and control the %%owned|owned%% in an absolute (sovereign) fashion, and (b) rules that limit the absoluteness of that power.

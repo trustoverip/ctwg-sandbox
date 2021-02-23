@@ -24,12 +24,12 @@ It should be part of the %%principal's|principal%% governance processes
 The %%Parties, Actors and Actions pattern|pattern-party-actor-action%% provides an overview of how this concept fits in with related concepts.
 
 ### Purpose
-The purpose of **policies** is to enable %%parties|party%% to provide its %%agents|agent%% with the rules and other guidance that they need to execute %%actions|action%% that comply with such rules. 
+The purpose of **policies** is to enable parties to provide its %%agents|agent%% with the rules and other guidance that they need to execute %%actions|action%% that comply with such rules. 
 
 ### Criterion
 A **policy** is 
 - a (set of) rules, working-instructions, preferences and other guidance for the execution of one or more kinds of %%actions|action%%;
-- governed by a single %%party|party%% (the %%Governor|policy-governor%% of the policy) that decides what goes in the policy and what does not;
+- governed by a single party (the %%Governor|policy-governor%% of the policy) that decides what goes in the policy and what does not;
 - may have multiple representations of the rules, working-instructions, preferences and other guidance, which are derived from the policy itself, in such a way that that any %%actor|actor%% that has a right or duty to execute an %%action|action%% on behalf of the  %%policy's governor|policy-governor%% can do so according to its intentions; 
 - is accessable to, and must be complied with by an %%agent|agent%% of that %%policy's governor|policy-governor%% when it executes an action of the kind to which the policy applies.
 

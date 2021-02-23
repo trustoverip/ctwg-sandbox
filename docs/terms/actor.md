@@ -9,7 +9,7 @@ hoverText: "Actor: Entity that can act (do things), e.g. people, machines, but n
 glossaryText: "Entity that can act (do things), e.g. people, machines, but not %%organizations^organization%%."
 ---
 ### Short Description
-An **Actor** is someone or something that can actually do things, such as people or machines. Actors will generally do things, i.e. execute %%actions|action%% in different ways, depending on the context, or the %%party|party%% for whom they do this.
+An **Actor** is someone or something that can actually do things, such as people or machines. Actors will generally do things, i.e. execute %%actions|action%% in different ways, depending on the context, or the party for whom they do this.
 
 The %%Parties, Actors and Actions pattern|pattern-party-actor-action%% provides an overview of how this concept fits in with related concepts.
 

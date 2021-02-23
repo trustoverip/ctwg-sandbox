@@ -10,7 +10,7 @@ glossaryText: "an %%actor^actor%% that is executing an %%action^action%% on beha
 ---
 
 ### Short Description
-An **Agent** is an %%actor|actor%% that is executing an action %%action|action%% on behalf of some %%party|party%% (which we call the %%principal|principal%% of that agent). During the time interval in which the action is executed, the actor may execute other actions in other execution-contexts, on behalf of the same or another %%party|party%%. However, for the execution of a single %%action|action%%, the actor is an agent for precisely one principal. It is assumed that the principal provides its agents with the %%policies|policy%% that provide the agents with the rules, working-instructions, preferences and other guidance that they need to comply with when exeucting the action.
+An **Agent** is an %%actor|actor%% that is executing an action %%action|action%% on behalf of some party (which we call the %%principal|principal%% of that agent). During the time interval in which the action is executed, the actor may execute other actions in other execution-contexts, on behalf of the same or another party. However, for the execution of a single %%action|action%%, the actor is an agent for precisely one principal. It is assumed that the principal provides its agents with the %%policies|policy%% that provide the agents with the rules, working-instructions, preferences and other guidance that they need to comply with when exeucting the action.
 
 The %%Parties, Actors and Actions pattern|pattern-party-actor-action%% provides an overview of how this concept fits in with related concepts.
 
@@ -19,7 +19,7 @@ The ability to distinguish between (non)agents is relevant in many situations, i
 - electronic communication: the agent 
 
 ### Criterion
-An **Agent** is a role that an %%actor|actor%% fulfills with respect to some %%party|party%% when that actor is executing some %%action|action%% on behalf of that %%party|party%%.
+An **Agent** is a role that an %%actor|actor%% fulfills with respect to some party when that actor is executing some %%action|action%% on behalf of that party.
 
 ### Examples
 
