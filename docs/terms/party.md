@@ -1,9 +1,9 @@
 ---
-id: Party
+id: party
 title: "Party"
 scopeid: essifLab
 type: concept
-typeid: Party
+typeid: party
 stage: draft
 hoverText: "Party: an Entity that has Objectives, Knowledge about what exists, rules that (should) apply, and some capability that allows it to reason, make decisions, generate and maintain Knowledge etc. in a Self-Sovereign fashion; Humans and Organizations ar the typical examples."
 glossaryText: "an %%entity^entity%% that has %%objectives^objective%%, %%knowledge^knowledge%% about what exists, rules that (should) apply, and some capability that allows it to reason, make decisions, generate and maintain %%knowledge^knowledge%% etc. in a self-Sovereign fashion; humans and %%organizations^organization%% ar the typical examples."
