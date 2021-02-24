@@ -2,3 +2,10 @@
 .idea
 node_modules
 .DS_Store
+*.swp
+build
+.docusaurus
+.cache-loader
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
