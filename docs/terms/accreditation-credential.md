@@ -5,12 +5,12 @@ scopeid: ctwg-sandbox
 type: concept
 typeid: accreditation-credential
 stage: draft
-hoverText: "Accreditation Credential: the sum or stock of words employed by a language, group, individual, or work or in a field of knowledge."
-glossaryText: "the sum or stock of words employed by a language, group, individual, or work or in a field of knowledge."
+hoverText: "Accreditation Credential: a verifiable-credential that states that a specific party has satisfied the requirements of a specific accreditation scheme that pertains to one or more speicific credential types, and provides assurances regarding the accreditation process."
+glossaryText: "a %%verifiable credential|verifiable-credential%% that states that a specific %%party|party%% has satisfied the requirements of a specific accreditation scheme that pertains to one or more specific %%credential types|credential-type%%, and provides assurances regarding the accreditation process."
 ---
 
 ### Short Description
-A **accreditation-credential** is a %%verifiable credential|verifiable-credential%% that states that a specific %%party|party%% has satisfied the requirements of a specific accreditation scheme that pertains to one or more speicific %%credential types|credential-type%%, and provides assurances regarding the accreditation process. Typically, accreditation credentials of a given kind, as well as the associated accreditation schemes, are governed by an %%SSI Assurance Community|ssi-ac%%.
+A **accreditation-credential** is a %%verifiable credential|verifiable-credential%% that states that a specific %%party|party%% has satisfied the requirements of a specific accreditation scheme that pertains to one or more specific %%credential types|credential-type%%, and provides assurances regarding the accreditation process. Typically, accreditation credentials of a given kind, as well as the associated accreditation schemes, are governed by an %%SSI Assurance Community|ssi-ac%%.
 
 %%Parties|party%% can be accredited for different functions, against different schemes.[^1]  We may have schemes not only for accrediting ‘trusted issuers’, but also ‘trusted verifiers’. A %%party|party%% that has been certified against a trusted verifier scheme of a %%SSI-AC|ssi-ac%% would be trusted, at least within the scope of that %%SSI-AC|ssi-ac%%, to request and use credentials of specific kinds only for specific purposes.[^2] Similarly ‘trusted holders’ (i.e. wallet equipment[^3]) that will interact in specified ways with ‘trusted verifiers’ and/or ‘trusted issuers’).[^4]
 
