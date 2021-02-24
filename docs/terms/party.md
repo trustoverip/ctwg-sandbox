@@ -10,11 +10,11 @@ glossaryText: "an %%entity^entity%% that has %%objectives^objective%%, %%knowled
 ---
 
 ### Short Description
-A **party** is an %%entity|entity%% that pursues %%objectives|objective%%, and has his own, subjective, 'Self-Sovereign' %%knowledge|knowledge%% to help it realize these objectives. Perhaps one might also say: that have a mind of their own. Typical examples are individual people and %%organizations|organization%%. Their minds (subjective knowledge) are what distinguishes one %%party|party%% from another, so every %%party|party%% is 1-1 related to its knowledge (mind).
+A **party** is an %%entity|entity%% that pursues %%objectives|objective%%, and has his own, subjective, 'Self-Sovereign' %%knowledge|knowledge%% to help it realize these objectives. Perhaps one might also say: that have a mind of their own. Typical examples are individual people and %%organizations|organization%%. Their minds (subjective knowledge) are what distinguishes one party from another, so every party is 1-1 related to its knowledge (mind).
 
 The concept we know as 'party' serves a central role, and therefore occurs in various patterns, such as:
 - The %%Parties, Actors and Actions pattern|pattern-party-actor-action%%, which provides an overview of how this concept fits in with related concepts.
-- the %%Jurisdictions pattern|pattern-jurisdiction%%, which shows that a %%party|party%% can operate the %%legal system|legal-system%% of a %%jurisdiction|jurisdiction%%, enforcing the rules in some scopes to the %%(legal) entities|legal-entity%% that it knows to exist and to which these rules apply.
+- the %%Jurisdictions pattern|pattern-jurisdiction%%, which shows that a party can operate the %%legal system|legal-system%% of a %%jurisdiction|jurisdiction%%, enforcing the rules in some scopes to the %%(legal) entities|legal-entity%% that it knows to exist and to which these rules apply.
 
 ### Purpose
 It is in one's mind - with one's knowledge - that objectives are being set, strategies are being devised, decisions are being made and so on. Specifically, conducting %%business transactions|transaction%% requires making numerous decisions, each of which is based on a subjective argument. The evaluation of such an argument requires the acquisition and processing of data, which implies additional decisions (that provide assurances that evaluation will arrive at the right conclusion), such as establishing:
@@ -40,6 +40,6 @@ The term '[Identity Owner](https://docs.google.com/document/d/1gfIz5TT0cNp2kxGML
 ---
 [^1]: Reasoning means: inferring conclusions from data, regardless of the kind of logic that is being used, or whether the reasoning is coherent, or consistent.
 
-[^2]: This means that the %%party|party%% can do this all by itself. For humans, the rights for this are laid down e.g. in the [ECHR](https://www.echr.coe.int "European Convention of Human Rights") ([ECHR articles 9-11](https://www.echr.coe.int/Documents/Convention_ENG.pdf))
+[^2]: This means that the party can do this all by itself. For humans, the rights for this are laid down e.g. in the [ECHR](https://www.echr.coe.int "European Convention of Human Rights") ([ECHR articles 9-11](https://www.echr.coe.int/Documents/Convention_ENG.pdf))
 
 [^3]: While the case can be made that (some) electronic components can reason, they do not do so in a self-sovereign fashion as intended by this definition. We do not want to discuss AI-equipment here.

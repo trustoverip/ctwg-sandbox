@@ -16,7 +16,7 @@ A **terminology** is a set of words and phrases (%%terms|term%%) that are used f
 In order for people to properly reason and/or communicate ideas (%%concepts|concept%%) about some topic - in particular when it is a specialist topic - they have to establish a set of terms, the meaning of which is shared between them. Hence, we should be able to refer to such a set of terms, which we do using the term: `**terminology**`
 
 ### Criteria
-A **terminology** is a set of %%terms|term%% that are used by a group of %%parties|party%% to reason and communicate about some specific topic(s).
+A **terminology** is a set of %%terms|term%% that are used by a group of parties to reason and communicate about some specific topic(s).
 
 ### Examples
 - The set of words listed in the [eSSIF-Lab glossary](../essifLab-glossary) are used within the eSSIF-Lab community for reasoning and communicating about topics that serve the [vision and purpose](../vision-and-purpose) of the [eSSIF-Lab project](https://essif-lab.eu/). This constitutes the `eSSIF-Lab terminology`.

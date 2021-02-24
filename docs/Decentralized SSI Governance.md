@@ -14,9 +14,9 @@ Here are the main takeaways:
 - Self-sovereign identity could save time and money on bureaucratic processes (form filling and validation) by automating business decisions.
 - Business decisions require %%governance|governance%% to ensure the data used for making them qualifies (is valid) for that purpose, and continuously remains compliant with laws, regulations, and company policies (which regularly change).
 - Companies could share this governance burden by supporting communities that support the provisioning of SSI-related assurances for their specific purposes.
-- Such (focused) %%assurance communities|ssi-ac%% could be supported by tools like %%credential catalogues|credential-catalogue%% and %%accreditation credentials|accreditation-credential%%.
+- Such (focused) %%assurance communities|ssi-ac%% could be supported by tools like %%credential catalogues|credential-catalogue%% and accreditation credentials.
 
-We hope this paper inspires SSI proponents to develop not only real %%SSI infrastructure|ssi-infrastructure%%, but also assurance mechanisms for exchanging %%qualified data|qualified-data%%.
+We hope this paper inspires SSI proponents to develop not only real %%SSI infrastructure|ssi-infrastructure%%, but also assurance mechanisms for exchanging %qualified data.
 
 ## Why SSI - Saving time and money on bureaucracy 
 

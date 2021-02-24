@@ -10,7 +10,7 @@ glossaryText: "a functional component that is capable of collecting data from va
 ---
 
 ### Short Description
-A **Data Collector** is an (architectural) function (a functional component in the [eSSIF-Lab functional architecture](../functional-architecture)) that a %%party|party%% may use to collect sufficient and %%validated data|validated-data%% for deciding whether or not a request (typically for a product or a service) is to be serviced.
+A **Data Collector** is an (architectural) function (a functional component in the [eSSIF-Lab functional architecture](../functional-architecture)) that a party may use to collect sufficient and %%validated data|validated-data%% for deciding whether or not a request (typically for a product or a service) is to be serviced.
 
 ### Purpose
 The purpose of a Data Collector is to collect sufficient and %%validated data|validated-data%% that eneables (an %%agent|agent%% of) its %%principal|principal%% to decide whether or not some request (typically for a product or a service) is to be serviced. 

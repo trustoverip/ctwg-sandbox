@@ -14,7 +14,7 @@ TNO to revise all below texts.
 :::
 
 ### Short Description
-**Guardianship** is a relationship between a %%party|party%% (which we call the %%Guardian|guardian%%) and an %%entity|entity%% (which we call the %%Dependent|dependent%%) in which the %%guardian|guardian%% 
+**Guardianship** is a relationship between a party (which we call the %%Guardian|guardian%%) and an %%entity|entity%% (which we call the %%Dependent|dependent%%) in which the %%guardian|guardian%% 
 
 in which one of these %%entities|entity%% (called the %%owner|owner%%) is entitled to enjoy, dispose of, and control the other %%entity|entity%% in an pretty much absolute (sovereign) fashion. Any guardianship relationship is grounded in ((the rules of) the %%legal system|legal-system%% of) a specific %%jurisdiction|jurisdiction%%, that maintains and enforces these rules, and that has means to resolve any disputes arising from that. To do this, both %%entities|entity%% must be %%legal entities|legal-entity%% in that %%jurisdiction|jurisdiction%%.
 
@@ -23,7 +23,7 @@ We may use the phrase %%natural guardianship|guardianship%% to refer to an guard
 The %%Guardianship pattern|pattern-guardianship%% provides an overview of how this concept fits in with related concepts.
 
 ### Purpose
-**Guardianship** is a means by which %%jurisdictions|jurisdiction%% provide assurances to %%parties|party%% (within its scope) that they can enjoy, dispose of and control in pretty much any way they like. The %%legal system|legal-system%% of the %%jurisdiction|jurisdiction%% specifies these rights, and provides ways in which the %%owner|owner%% can exercize them (that provides the assurance).
+**Guardianship** is a means by which %%jurisdictions|jurisdiction%% provide assurances to parties (within its scope) that they can enjoy, dispose of and control in pretty much any way they like. The %%legal system|legal-system%% of the %%jurisdiction|jurisdiction%% specifies these rights, and provides ways in which the %%owner|owner%% can exercize them (that provides the assurance).
 
 ### Criteria
 An **guardianship** is a relationship between two %%legal entities|legal-entity%% (called the %%owner|owner%% and the %%owned|owned%%) within a single %%jurisdiction|jurisdiction%%, whose %%legal system|legal-system%% defines and enforces (a) rules that recognize the power of the %%owner|owner%% to enjoy, dispose of and control the %%owned|owned%% in an absolute (sovereign) fashion, and (b) rules that limit the absoluteness of that power.

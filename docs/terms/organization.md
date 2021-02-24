@@ -27,4 +27,4 @@ A (non-empty) group of people that work to realize a (non-empty) set of objectiv
 
 ### Notes
 <!--This (optional) section is the place to put anything for which there is no other good place to put it.-->
-- One may question whether or not a single person can be a 'group of people' (who would obviously work to realize its personal objectives) and hence qualify as an organization. The answer to this question is however irrelevant within our context, because we reason with the concept %%party|party%% rather than the concepts organization and/or person.
+- One may question whether or not a single person can be a 'group of people' (who would obviously work to realize its personal objectives) and hence qualify as an organization. The answer to this question is however irrelevant within our context, because we reason with the concept party rather than the concepts organization and/or person.
