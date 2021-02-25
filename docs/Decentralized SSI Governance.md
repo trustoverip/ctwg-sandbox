@@ -1,5 +1,10 @@
-# Decentralized SSI Governance,
+---
+id: decentralized-ssi-governance
+title: "Decentralized SSI Governance,"
+---
+
 # The missing link in automating business decisions
+
 ---
 
 Rieks Joosten (TNO), Sterre den Breeijen (TNO), Drummond Reed (Evernym)
@@ -159,7 +164,7 @@ This document proposes several additions to the tools that have up till now been
 
 They do not seek to provide rules/standards that should be followed world-wide, but rather they consent to a set of rules that they can all work with, for the particular purposes that they share and the concerns they collectively want to address. They will often allow others to join if they find that beneficial. We will use the term ‘SSI Assurance Community’ or SSI-AC to refer to such communities.[^16]
 
-![](media/image3.png){width="3.7968755468066493in" height="1.8297659667541557in"}
+[](media/image3.png){width="3.7968755468066493in" height="1.8297659667541557in"}
 
 Figure 1: Constituents and Subscribers of an SSI-AC
 
@@ -262,101 +267,101 @@ The fact that such credentials contain an accreditation credential of the SSI-AC
 
 Here is an example of what a simple Accreditation Credential, in the form of a VC, might look like. This credential (of type \`DHACAccreditationCredential\`) has been issued by a SSI-AC named \`DHAC\`. It has been issued to a party called ACME and asserts that ACME is a trusted issuer for credentials of type \`DHAC:Covid19TestResult\`.
 
-~~~json
+```json
 {
-   "@context":" "[
-      "https://www.w3.org/2018/credentials/v1",
-      "https://www.w3.org/2018/credentials/examples/v1"
-   ],
-   "id":"http://DHAC.org/accreditationCredentials/1872",
-   "type":" "[
-      "VerifiableCredential",
-      "DHACAccreditationCredential"
-   ],
-   "issuer":"https://DHAC.org/issuers/4",
-   "issuanceDate":"2020-04-30T11:17:24Z",
-   "credentialSubject":{
-      "id":"did:example:ebfeb1f712ebc6f1c276e12ec21",
-      "name":"ACME, Inc.",
-      "trustedIssuerCredentialType":"DHAC:Covid19TestResult",
-      "trustedIssuerProofType":{
-         "type":"RsaSignature2018",
-         "verificationMethod":"https://acme.com/issuers/keys/1"
-      }
-   },
-   "proof":{
-      "type":"RsaSignature2018",
-      "created":"2019-06-18T21:19:10Z",
-      "proofPurpose":"assertionMethod",
-      "verificationMethod":"https://DHAC.org/issuers/keys/3",
-      "jws":"eyJhbG...GHSrQyHUdBBPM"
-   }
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/2018/credentials/examples/v1"
+  ],
+  "id": "http://DHAC.org/accreditationCredentials/1872",
+  "type": [
+    "VerifiableCredential",
+    "DHACAccreditationCredential"
+  ],
+  "issuer": "https://DHAC.org/issuers/4",
+  "issuanceDate": "2020-04-30T11:17:24Z",
+  "credentialSubject": {
+    "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+    "name": "ACME, Inc.",
+    "trustedIssuerCredentialType": "DHAC:Covid19TestResult",
+    "trustedIssuerProofType": {
+      "type": "RsaSignature2018",
+      "verificationMethod": "https://acme.com/issuers/keys/1"
+    }
+  },
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2019-06-18T21:19:10Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "https://DHAC.org/issuers/keys/3",
+    "jws": "eyJhbG...GHSrQyHUdBBPM"
+  }
 }
-~~~
+```
 Figure 2: Simple example of Accreditation Credential
 
 Figure 3 shows an example of a Trustworthy Credential as it might have been issued by ACME to a person called Wayne Dodge. It states that Wayne has been tested on April 30th, 2020, and that the result of the test was negative[^31]. It also contains ACME’s accreditation credential that allows a verifier to obtain assurance that, according to SSI Assurance Community DHAC, ACME is a trusted issuer for this credential.
-~~~json
+```json
 {
-    "@context":[
-        "https://www.w3.org/2018/credentials/v1",
-        "https://www.w3.org/2018/credentials/examples/v1"
-    ],
-    "id":"http://acme.com/credentials/DHAC_Covid19TestResult/172",
-    "type":[
-        "VerifiableCredential",
-        "DHAC:Covid19TestResult"
-    ],
-    "issuer":"did:example:ebfeb1f712ebc6f1c276e12ec21",
-    "issuanceDate":"2020-05-01T12:13:14Z",
-    "credentialSubject":{
-    "id":"did:example:2bdcc0b259683e194e48037ea21e15d3",
-    "name":"Wayne Dodge",
-    "covid19TestResult":{
-        "tested":"2020-04-30T11:19:10Z",
-        "result":"negative"
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://www.w3.org/2018/credentials/examples/v1"
+  ],
+  "id": "http://acme.com/credentials/DHAC_Covid19TestResult/172",
+  "type": [
+    "VerifiableCredential",
+    "DHAC:Covid19TestResult"
+  ],
+  "issuer": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+  "issuanceDate": "2020-05-01T12:13:14Z",
+  "credentialSubject": {
+    "id": "did:example:2bdcc0b259683e194e48037ea21e15d3",
+    "name": "Wayne Dodge",
+    "covid19TestResult": {
+      "tested": "2020-04-30T11:19:10Z",
+      "result": "negative"
     },
-    "accreditationCredential":[
-        {
-            "@context":[
-                "https://www.w3.org/2018/credentials/v1",
-                "https://www.w3.org/2018/credentials/examples/v1"
-            ],
-            "id":"http://DHAC.org/accreditationCredentials/1872",
-            "type":[
-                "VerifiableCredential",
-                "DHACAccreditationCredential"
-            ],
-            "issuer":"https://DHAC.org/issuers/4",
-            "issuanceDate":"2020-04-30T11:17:24Z",
-            "credentialSubject":{
-                "id":"did:example:ebfeb1f712ebc6f1c276e12ec21",
-                "name":"ACME, Inc.",
-                "trustedIssuerCredentialType":"DHAC:Covid19TestResult",
-                "trustedIssuerProofType":{
-                    "type":"RsaSignature2018",
-                    "verificationMethod":"https://acme.com/issuers/keys/1"
-                    }
-                }
-            }
+    "accreditationCredential": [
+      {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://www.w3.org/2018/credentials/examples/v1"
         ],
-        "proof":{
-            "type":"RsaSignature2018",
-            "created":"2019-06-18T21:19:10Z",
-            "proofPurpose":"assertionMethod",
-            "verificationMethod":"https://DHAC.org/issuers/keys/3",
-            "jws":"eyJhbG...GHSrQyHUdBBPM"
+        "id": "http://DHAC.org/accreditationCredentials/1872",
+        "type": [
+          "VerifiableCredential",
+          "DHACAccreditationCredential"
+        ],
+        "issuer": "https://DHAC.org/issuers/4",
+        "issuanceDate": "2020-04-30T11:17:24Z",
+        "credentialSubject": {
+          "id": "did:example:ebfeb1f712ebc6f1c276e12ec21",
+          "name": "ACME, Inc.",
+          "trustedIssuerCredentialType": "DHAC:Covid19TestResult",
+          "trustedIssuerProofType": {
+            "type": "RsaSignature2018",
+            "verificationMethod": "https://acme.com/issuers/keys/1"
+          }
         }
-    },
-    "proof":{
-        "type":"RsaSignature2018",
-        "created":"2019-06-18T21:19:10Z",
-        "proofPurpose":"assertionMethod",
-        "verificationMethod":"https://DHAC.org/issuers/keys/3",
-        "jws":"eyJhbG...GHSrQyHUdBBPM"
+      }
+    ],
+    "proof": {
+      "type": "RsaSignature2018",
+      "created": "2019-06-18T21:19:10Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "https://DHAC.org/issuers/keys/3",
+      "jws": "eyJhbG...GHSrQyHUdBBPM"
     }
+  },
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2019-06-18T21:19:10Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "https://DHAC.org/issuers/keys/3",
+    "jws": "eyJhbG...GHSrQyHUdBBPM"
+  }
 }
-~~~
+```
 Figure 3: Example of a Trustworthy Credential
 
 ### Tools and Services That Support Business Decision Making
@@ -367,19 +372,19 @@ Nodes, particularly when they have multiple branches, can be assigned a name tha
 
 Here is a fictional example of what a tree might look like for dealing with a request for accessing a bank account. The root node, called ‘bankaccount’, will evaluate to the account that the requestor has selected from all bank accounts that (s)he has a right to access. In its simplest form, that would be the bank accounts that (s)he owns:
 
-![](media/image2.png){width="6.692913385826771in" height="1.6666666666666667in"}
+([](media/image2.png){width="6.692913385826771in" height="1.6666666666666667in"})
 
 Figure 4: Fictional example of decision tree for accessing a bank account.
 
 However, if the bank provides the owner of a bank account with the service to mandate other people to access their bank account, this has to be reflected in the decision tree as well: a requestor then also gets to select from the accounts for which (s)he is a mandatee, as follows:
 
-![](media/image4.png){width="6.692913385826771in" height="2.5049289151356082in"}
+[](media/image4.png){width="6.692913385826771in" height="2.5049289151356082in"}
 
 Figure 5: Grafting a new branch on the decision tree.
 
 As time progresses, all sorts of other situations will pop up that cause subtrees to be grafted (added to one of the existing nodes), causing the decision tree to become ever more complex over time. Moreover, since the proper design of these subtrees may require ever more specialized expertise, their governance quickly becomes unmanageable. An example is dealing with legal rights that people may have to access a bank account of others. For example, if your partner, parents or child has died, if you have been appointed as a guardian of someone that is incapable of doing its own financial administration, if you are a police officer that is tasked with tracking down bank frauds, etc. Such a decision tree might then look like this:
 
-![](media/image1.png){width="6.692913385826771in" height="3.6805555555555554in"}
+[](media/image1.png){width="6.692913385826771in" height="3.6805555555555554in"}
 
 Figure 6: Grafting a branch the execution of which may be outsourced.
 

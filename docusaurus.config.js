@@ -1,21 +1,13 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Decentralized SSI Governance Docs',
+  tagline: 'Terminology',
+  url: 'https://MarIliadi.github.io',
+  baseUrl: '/ctwg-sandbox/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'trustoverip', // Usually your GitHub org/user name.
-  projectName: 'ssi-ac-whitepaper', // Usually your repo name.
-  plugins: [
-  [
-    "@docusaurus-terminology/parser",
-    {
-      //options
-    }
-  ]
-],
+  organizationName: 'MarIliadi', // Usually your GitHub org/user name.
+  projectName: 'ctwg-sandbox', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -25,12 +17,17 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/decentralized-ssi-governance',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Decentralized SSI Governance',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          to: 'docs/glossary',
+          activeBasePath: 'docs',
+          label: 'Glossary of Terms',
+          position: 'left',
+        },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -46,11 +43,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              to: 'https://v2.docusaurus.io/docs/markdown-features',
             },
           ],
         },
@@ -75,10 +68,6 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
@@ -88,21 +77,17 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   presets: [
     [
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          //sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -110,4 +95,13 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus-terminology/parser',
+      {
+        termsDir: './docs/terms',
+        glossaryFilepath: './docs/glossary_file.md'
+      }
+    ]
+  ]
 };
