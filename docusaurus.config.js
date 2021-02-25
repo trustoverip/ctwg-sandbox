@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Decentralized SSI Governance Docs',
+  tagline: 'Terminology',
   url: 'https://MarIliadi.github.io',
   baseUrl: '/ctwg-sandbox/',
   onBrokenLinks: 'throw',
@@ -8,14 +8,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'MarIliadi', // Usually your GitHub org/user name.
   projectName: 'ctwg-sandbox', // Usually your repo name.
-  plugins: [
-  [
-    "@docusaurus-terminology/parser",
-    {
-      //options
-    }
-  ]
-],
   themeConfig: {
     navbar: {
       title: 'My Site',
@@ -28,6 +20,12 @@ module.exports = {
           to: 'docs/decentralized-ssi-governance',
           activeBasePath: 'docs',
           label: 'Decentralized SSI Governance',
+          position: 'left',
+        },
+        {
+          to: 'docs/glossary',
+          activeBasePath: 'docs',
+          label: 'Glossary of Terms',
           position: 'left',
         },
         {
@@ -97,4 +95,13 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus-terminology/parser',
+      {
+        termsDir: './docs/terms',
+        glossaryFilepath: './docs/glossary_file.md'
+      }
+    ]
+  ]
 };
