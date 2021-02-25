@@ -6,15 +6,15 @@ type: concept
 typeid: trustworthy-credential
 stage: draft
 hoverText: "Trustworthy Credential: a credential whose payload contains an accreditation credential for credentials of the kind that the trustworthy credential instantiates."
-glossaryText: "a credential whose payload contains an %%accreditation credential|accreditation credential%% for credentials of the kind that the trustworthy credential instantiates."
+glossaryText: "a credential whose payload contains an %%accreditation credential|accreditation-credential%% for credentials of the kind that the trustworthy credential instantiates."
 ---
 
 ### Short Description
 A **Trustworthy Credential** (of an %%SSI Assurance Community|ssi-ac%%)’ is a %%verifiable credential|verifiable-credential%%,
 - whose %%type|credential-type%% is specified by (and published in the %%Credential Catalogue|credential-catalogue%% of) that %%SSI-AC|ssi-ac%%;
-- of which the ‘envelope’ (metadata) includes one or more %%accreditation credential|accreditation credential%% payloads, one of which is issued by, or on behalf of that  %%SSI-AC|ssi-ac%%, and is of a type that is specified (and published) by that %%SSI-AC|ssi-ac%%.
+- of which the ‘envelope’ (metadata) includes one or more %%accreditation credential|accreditation-credential%% payloads, one of which is issued by, or on behalf of that  %%SSI-AC|ssi-ac%%, and is of a type that is specified (and published) by that %%SSI-AC|ssi-ac%%.
 
-The fact that such credentials contain an %%accreditation credential|accreditation credential%% of the SSI-AC means that it comes with the particular assurances as stated in the associated accreditation scheme. The credential is ‘trustworthy’ for any %%party|party%% that appreciates the assurances provided by that accreditation scheme.
+The fact that such credentials contain an %%accreditation credential|accreditation-credential%% of the SSI-AC means that it comes with the particular assurances as stated in the associated accreditation scheme. The credential is ‘trustworthy’ for any %%party|party%% that appreciates the assurances provided by that accreditation scheme.
 
 ### Purpose
 The purpose of **Trustworthy Credentials** is to allow parties in the different roles of issuer, holder and verifier to obtain assurances about their handling of credentials of specific kinds.
@@ -22,12 +22,12 @@ The purpose of **Trustworthy Credentials** is to allow parties in the different 
 ### Criteria
 A **Trustworthy Credential** (of an %%SSI Assurance Community|ssi-ac%%)’ is a %%verifiable credential|verifiable-credential%%,
 - whose %%type|credential-type%% is specified by (and published in the %%Credential Catalogue|credential-catalogue%% of) that %%SSI-AC|ssi-ac%%;
-- of which the ‘envelope’ (metadata) includes one or more %%accreditation credential|accreditation credential%% payloads, one of which is issued by, or on behalf of that  %%SSI-AC|ssi-ac%%, and is of a type that is specified (and published) by that %%SSI-AC|ssi-ac%%.
+- of which the ‘envelope’ (metadata) includes one or more %%accreditation credential|accreditation-credential%% payloads, one of which is issued by, or on behalf of that  %%SSI-AC|ssi-ac%%, and is of a type that is specified (and published) by that %%SSI-AC|ssi-ac%%.
 
 ### Examples
 Here is an example of a 'Trustworthy Credential' as it might have been issued by ACME to a person called Wayne Dodge. It states that Wayne has been tested on April 30th, 2020, and that the result of the test was negative %%party|party%% . It also contains ACME’s trustworthy credential that allows a verifier to obtain assurance that, according to %%SSI Assurance Community|ssi-ac%% DHAC, ACME is a trusted issuer for this credential.
 
-~~~json
+```json
 {
     "@context":[
         "https://www.w3.org/2018/credentials/v1",
@@ -86,4 +86,4 @@ Here is an example of a 'Trustworthy Credential' as it might have been issued by
         "jws":"eyJhbG...GHSrQyHUdBBPM"
     }
 }
-~~~
+```
