@@ -334,8 +334,9 @@ Figure 3 shows an example of a Trustworthy Credential as it might have been issu
                 "name":"ACME, Inc.",
                 "trustedIssuerCredentialType":"DHAC:Covid19TestResult",
                 "trustedIssuerProofType":{
-                "type":"RsaSignature2018",
-                "verificationMethod":"https://acme.com/issuers/keys/1"
+                    "type":"RsaSignature2018",
+                    "verificationMethod":"https://acme.com/issuers/keys/1"
+                    }
                 }
             }
         ],
