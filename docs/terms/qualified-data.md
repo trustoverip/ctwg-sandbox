@@ -1,9 +1,9 @@
 ---
-id: ssi-qualified-data
+id: qualified-data
 title: "Qualified Data"
 scopeid: ctwg-sandbox
 type: concept
-typeid: ssi-qualified-data
+typeid: qualified-data
 stage: draft
 hoverText: "Qualified Data: data that has assurances, at least regarding its provenance and integrity, and that can be combined electronically in semantically valid ways."
 glossaryText: "data that has assurances, at least regarding its provenance and integrity, and that can be combined electronically in semantically valid ways."
