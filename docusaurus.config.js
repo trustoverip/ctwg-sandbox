@@ -27,7 +27,7 @@ module.exports = {
         {
           to: 'docs/decentralized-ssi-governance',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Decentralized SSI Governance',
           position: 'left',
         },
         {
@@ -45,11 +45,7 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              to: 'https://v2.docusaurus.io/docs/markdown-features',
             },
           ],
         },
@@ -74,10 +70,6 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/facebook/docusaurus',
             },
@@ -87,6 +79,8 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -96,12 +90,6 @@ module.exports = {
           // Please change this to your repo.
           //editUrl:
           //  'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
