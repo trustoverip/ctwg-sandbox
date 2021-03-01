@@ -19,6 +19,7 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn docusaurus parse
+          yarn docusaurus glossary
           yarn build
           mv build public
   gh-release:
@@ -41,6 +42,7 @@ jobs:
           git config --global user.name "gh-actions"
           yarn install --frozen-lockfile
           yarn docusaurus parse
+          yarn docusaurus glossary
           yarn build
           mv build public
           yarn deploy
