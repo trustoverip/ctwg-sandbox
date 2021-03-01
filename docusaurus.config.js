@@ -1,12 +1,12 @@
 module.exports = {
   title: 'Decentralized SSI Governance Docs',
   tagline: 'Terminology',
-  url: 'https://MarIliadi.github.io',
+  url: 'https://trustoverip.github.io',
   baseUrl: '/ctwg-sandbox/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'MarIliadi', // Usually your GitHub org/user name.
+  organizationName: 'trustoverip', // Usually your GitHub org/user name.
   projectName: 'ctwg-sandbox', // Usually your repo name.
   themeConfig: {
     navbar: {
