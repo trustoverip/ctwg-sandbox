@@ -108,13 +108,7 @@ Here is a visual representation of this pattern, using the following [notations 
 
 
 
-<img
-
-  alt="Conceptual model of the 'Party-Actor-Action' pattern"
-
-  src={useBaseUrl('images/patterns/pattern-party-actor-action.png')}
-
-/>
+<img alt="Conceptual model of the 'Party-Actor-Action' pattern" src={useBaseUrl('images/patterns/pattern-party-actor-action.png')} />
 
 
 

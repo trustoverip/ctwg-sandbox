@@ -68,13 +68,7 @@ Here is a visual representation of this pattern, using the following [notations 
 
 
 
-<img
-
-  alt="Conceptual model of the 'Jurisdiction' pattern"
-
-  src={useBaseUrl('images/patterns/pattern-jurisdiction.png')}
-
-/>
+<img alt="Conceptual model of the 'Jurisdiction' pattern" src={useBaseUrl('images/patterns/pattern-jurisdiction.png')} />
 
 
 
